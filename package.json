@@ -1,0 +1,22 @@
+{
+  "name": "sitemap-nodejs",
+  "version": "1.0.0",
+  "description": "输入网站地址，自动爬取网站中的所有链接。",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37372842/sitemap-nodejs.git"
+  },
+  "keywords": [
+    "sitemap"
+  ],
+  "author": "meetqy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/37372842/sitemap-nodejs/issues"
+  },
+  "homepage": "https://github.com/37372842/sitemap-nodejs#readme"
+}
