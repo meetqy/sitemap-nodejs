@@ -1,6 +1,6 @@
 {
   "name": "sitemap-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "输入网站地址，自动爬取网站中的所有链接。",
   "main": "index.js",
   "directories": {
@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/37372842/sitemap-nodejs/issues"
   },
-  "homepage": "https://github.com/37372842/sitemap-nodejs#readme"
+  "homepage": "https://github.com/37372842/sitemap-nodejs#readme",
+  "dependencies":{
+    "request":"2.83.0",
+    "cheerio":"1.0.0-rc.2"
+  },
+  "devDependencies":{
+    "request":"2.83.0",
+    "cheerio":"1.0.0-rc.2"
+  }
 }
