@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/37372842/sitemap-nodejs#readme",
   "dependencies":{
-    "request":"2.83.0",
-    "cheerio":"1.0.0-rc.2"
+    "request":"^2.83.0",
+    "cheerio":"^1.0.0-rc.2"
   },
   "devDependencies":{
-    "request":"2.83.0",
-    "cheerio":"1.0.0-rc.2"
+    "request":"^2.83.0",
+    "cheerio":"^1.0.0-rc.2"
   }
 }
