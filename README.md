@@ -1,12 +1,12 @@
 # sitemap-nodejs
 输入网站地址，自动爬取网站当中所有的链接，并生成sitemap。
 
-#安装
+# 安装
 使用npm install命令：
 ```hash
 npm install sitemap-nodejs
 ```
-#超级简单的使用
+# 超级简单的使用
 ```javascript 
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
