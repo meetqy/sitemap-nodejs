@@ -1,6 +1,6 @@
 {
   "name": "sitemap-nodejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "输入网站地址，自动爬取网站中的所有链接。",
   "main": "index.js",
   "directories": {
