@@ -14,6 +14,6 @@ sitemap.init({
 	save_path:'sitemap.txt'
 });
 ```
-href:网站地址
+href：网站地址
 
-save_path:sitemap文件保存地址
+save_path：sitemap文件保存地址
