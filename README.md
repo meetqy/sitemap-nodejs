@@ -15,4 +15,5 @@ sitemap.init({
 });
 ```
 href:网站地址
+
 save_path:sitemap文件保存地址
