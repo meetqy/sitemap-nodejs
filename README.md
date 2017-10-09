@@ -1,5 +1,6 @@
 # sitemap-nodejs
 输入网站地址，自动爬取网站当中所有的链接，并生成sitemap。
+[1]:https://www.meetqy.com "meetqy"
 
 # 与其他sitemap自动生成模块相比
 * 什么时候需要sitemap，就可以马上生成，不用担心在开发过程中，没有考虑到sitemap的问题。
