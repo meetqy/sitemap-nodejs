@@ -1,16 +1,16 @@
-# sitemap-nodejs
+## sitemap-nodejs
 Enter the site address, automatically crawl all the links in the site, and generate sitemap.
 
-# Compared with other sitemap auto-generated modules
+## Compared with other sitemap auto-generated modules
 * When need to sitemap, you can immediately generate, no longer have to worry about the development process, did not take into account the sitemap problem.
 * As long as there is a network can generate sitemap.
 
-# installation
+## installation
 Use the npm install command:
 ```hash
 npm install sitemap-nodejs
 ```
-# Super simple use
+## Super simple use
 ```javascript 
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
