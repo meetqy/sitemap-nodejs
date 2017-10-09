@@ -23,3 +23,7 @@ href：Website address.
 save_path：sitemap file save address.
 
 Note: Currently only generate txt file, can not generate other format files!
+
+save_path：sitemap文件保存地址
+
+注意：目前只能生成txt文件，不能生成其他格式文件！
