@@ -1,16 +1,16 @@
 # sitemap-nodejs
-输入网站地址，自动爬取网站当中所有的链接，并生成sitemap。
+Enter the site address, automatically crawl all the links in the site, and generate sitemap.
 
-# 与其他sitemap自动生成模块相比
-* 什么时候需要sitemap，就可以马上生成，不用担心在开发过程中，没有考虑到sitemap的问题。
-* 只要有网络便可以生成sitemap。
+# Compared with other sitemap auto-generated modules
+* When need to sitemap, you can immediately generate, no longer have to worry about the development process, did not take into account the sitemap problem.
+* As long as there is a network can generate sitemap.
 
-# 安装
-使用npm install命令：
+# installation
+Use the npm install command:
 ```hash
 npm install sitemap-nodejs
 ```
-# 超级简单的使用
+# Super simple use
 ```javascript 
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
@@ -18,6 +18,8 @@ sitemap.init({
 	save_path:'sitemap.txt'
 });
 ```
-href：网站地址
+href：Website address.
 
-save_path：sitemap文件保存地址
+save_path：sitemap file save address.
+
+Note: Currently only generate txt file, can not generate other format files!
