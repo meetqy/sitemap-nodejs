@@ -18,9 +18,9 @@ sitemap.init({
 	save_path:'sitemap.txt'
 });
 ```
-href：Website address.
+href(Must): website address.
 
-save_path：sitemap file save address.
+save_path(Not required): sitemap file to save the address, the extension will determine the format to generate sitemap, the default format for the txt.
 
 ## Generate the sitemap in the corresponding format based on the extension
 example:
