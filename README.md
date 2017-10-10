@@ -22,4 +22,21 @@ href：Website address.
 
 save_path：sitemap file save address.
 
-Note: Currently only generate txt file, can not generate other format files!
+## Generate the sitemap in the corresponding format based on the extension
+example:
+* Generate xml format
+```javascript
+var sitemap = require('sitemap-nodejs');
+sitemap.init({
+    href:'https://www.meetqy.com',
+    save_path:'sitemap.xml'
+});
+```
+* Generate txt format
+```javascript
+var sitemap = require('sitemap-nodejs');
+sitemap.init({
+    href:'https://www.meetqy.com',
+    save_path:'sitemap.txt'
+});
+```
