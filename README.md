@@ -18,9 +18,6 @@ sitemap.init({
 	save_path:'sitemap.txt'
 });
 ```
-href(Must): website address.
-
-save_path(Can fill): sitemap file to save the address, the extension will determine the format to generate sitemap, the default format for the txt.
 
 ## Generate the sitemap in the corresponding format based on the extension
 example:
@@ -40,3 +37,10 @@ sitemap.init({
     save_path:'sitemap.txt'
 });
 ```
+
+## parameters
+href(Must): website address.
+
+save_path(optional): sitemap file to save the address, the extension will determine the format to generate sitemap, the default format for the txt.
+
+show_url (optional): whether to print the current url in the console to crawl, the default does not open.
