@@ -1,4 +1,4 @@
-## sitemap-nodejs！
+## sitemap-nodejs
 Enter the site address, automatically crawl all the links in the site, and generate sitemap.
 
 ## Compared with other sitemap auto-generated modules
