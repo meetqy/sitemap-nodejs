@@ -14,8 +14,8 @@ npm install sitemap-nodejs
 ```javascript 
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
-	href:'https://www.meetqy.com',
-	save_path:'sitemap.txt'
+    href:'https://www.meetqy.com',
+    save_path:'sitemap.xml'
 });
 ```
 
