@@ -1,16 +1,16 @@
-## sitemap-nodejs！
-Enter the site address, automatically crawl all the links in the site, and generate sitemap.
+## sitemap-nodejs
+输入网站地址，自动爬取网站当中所有的链接，并生成sitemap。
 
-## Compared with other sitemap auto-generated modules
-* When need to sitemap, you can immediately generate, no longer have to worry about the development process, did not take into account the sitemap problem.
-* As long as there is a network can generate sitemap.
+## 与其他sitemap自动生成模块相比
+* 什么时候需要sitemap，就可以马上生成，再也不必担心在开发过程中，没有考虑到sitemap的问题。
+* 只要有网络便可以生成sitemap。
 
-## installation
-Use the npm install command:
+## 安装
+使用npm install命令：
 ```hash
 npm install sitemap-nodejs
 ```
-## Super simple use
+## 超级简单的使用
 ```javascript 
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
@@ -19,9 +19,9 @@ sitemap.init({
 });
 ```
 
-## Generate the sitemap in the corresponding format based on the extension
-example:
-* Generate xml format
+## 根据扩展名生成对应格式的sitemap
+例：
+* 生成xml格式
 ```javascript
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
@@ -29,7 +29,7 @@ sitemap.init({
     save_path:'sitemap.xml'
 });
 ```
-* Generate txt format
+* 生成txt格式
 ```javascript
 var sitemap = require('sitemap-nodejs');
 sitemap.init({
@@ -38,9 +38,12 @@ sitemap.init({
 });
 ```
 
-## parameters
-href(Must): website address.
+## 参数
 
-save_path(optional): sitemap file to save the address, the extension will determine the format to generate sitemap, the default format for the txt.
+href（必须）：网站地址
 
-show_url (optional): whether to print the current url in the console to crawl, the default does not open.
+save_path（可选）：sitemap文件保存地址，扩展名会决定生成sitemap的格式，默认为txt格式。
+
+show_url（可选）：是否在控制台打印当前爬取的url地址，默认不开启。
+
+
