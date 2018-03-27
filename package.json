@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/37372842/sitemap-nodejs.git"
+    "url": "git+https://github.com/meetqy/sitemap-nodejs.git"
   },
   "keywords": [
     "cheerio",
@@ -21,14 +21,10 @@
   "author": "meetqy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/37372842/sitemap-nodejs/issues"
+    "url": "https://github.com/meetqy/sitemap-nodejs/issues"
   },
-  "homepage": "https://github.com/37372842/sitemap-nodejs#readme",
+  "homepage": "https://github.com/meetqy/sitemap-nodejs#readme",
   "dependencies":{
-    "request":"^2.83.0",
-    "cheerio":"^1.0.0-rc.2"
-  },
-  "devDependencies":{
     "request":"^2.83.0",
     "cheerio":"^1.0.0-rc.2"
   }
